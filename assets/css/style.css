@@ -157,7 +157,7 @@ main{
 	background: white;
 	width: 200px;
 	bottom: 0;
-	right: 420px;
+	left: 560px;
 	box-shadow: -8px 6px 3px -4px rgba(169,179,168,1);
 }
 
@@ -174,7 +174,7 @@ main{
 
 .butt{
 	position: absolute;
-	right: 405px;
+	left: 546px;
 	box-shadow: -8px 6px 3px -4px rgba(169,179,168,1);
 }
 
@@ -272,6 +272,26 @@ main{
 .cont1:last-child{
 	margin-bottom: 0;
 }
+
+.combine{
+	display: flex;
+	
+}
+
+.circ1{
+	height: 20px;
+	width: 20px;
+	border-radius: 50%;
+	background: #ccc6c6;
+	justify-content: center;
+	align-items: center;
+	display: flex;
+	padding: 4px;
+	margin-right: 8px;
+	margin-top: 10px;
+}
+
+
 
 .box{
 	padding-right: 15px;
